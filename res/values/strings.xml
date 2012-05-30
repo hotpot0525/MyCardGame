@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, MyCardGameActivity!</string>
+    <string name="app_name">MyCardGame</string>
+    <string name="Button">Button</string>
+    <string name="row1">row12</string>
+
+</resources>

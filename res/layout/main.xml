@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+
+        
+        <hotpot.game.card.EnemyCard
+            android:id="@+id/button1"
+            android:layout_width="50dp"
+            android:layout_height="60dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:drawableTop="@drawable/mons001b" />
+        
+         <hotpot.game.card.EnemyCard
+            android:id="@+id/button2"
+            android:layout_width="50dp"
+            android:layout_height="60dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="10dp"
+            android:drawableTop="@drawable/mons001b"
+            android:gravity="top|left" />
+          <hotpot.game.card.EnemyCard
+            android:id="@+id/button3"
+            android:layout_width="50dp"
+            android:layout_height="60dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="10dp"
+			android:drawableTop="@drawable/mons001b"
+            android:src="@drawable/button_30"
+            />
+           <hotpot.game.card.EnemyCard
+            android:id="@+id/button4"
+            android:layout_width="50dp"
+            android:layout_height="60dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="190dp"
+            android:layout_marginTop="10dp"
+            android:drawableTop="@drawable/mons001b"            
+            />
+           <hotpot.game.card.EnemyCard
+            android:id="@+id/button5"
+            android:layout_width="50dp"
+            android:layout_height="60dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="250dp"
+            android:layout_marginTop="10dp"
+            android:drawableTop="@drawable/mons001b"            
+            />           
+
+
+
+            <hotpot.game.card.ChartView
+                android:id="@+id/chartView1"
+                android:layout_width="70dp"
+                android:layout_height="80dp"
+                android:layout_marginTop="100dp"
+                android:layout_marginLeft="60dp" />
+            <hotpot.game.card.ChartView
+                android:id="@+id/chartView2"
+                android:layout_width="70dp"
+                android:layout_height="80dp"
+                android:layout_alignTop="@+id/chartView1"
+                android:layout_toRightOf="@+id/chartView1" />            
+            <hotpot.game.card.ChartView
+                android:id="@+id/chartView3"
+                android:layout_width="70dp"
+                android:layout_height="80dp"
+                android:layout_alignTop="@+id/chartView2"
+                android:layout_toRightOf="@+id/chartView2" />
+            <hotpot.game.card.ChartView
+                android:id="@+id/chartView4"
+                android:layout_width="70dp"
+                android:layout_height="80dp"
+                android:layout_alignLeft="@+id/chartView1"
+                android:layout_below="@+id/chartView1" />            
+            
+            <hotpot.game.card.ChartView
+                android:id="@+id/chartView5"
+                android:layout_width="70dp"
+                android:layout_height="80dp"
+                android:layout_alignTop="@+id/chartView4"
+                android:layout_toRightOf="@+id/chartView4" />
+                
+
+            <hotpot.game.card.ChartView
+                android:id="@+id/chartView6"
+                android:layout_width="70dp"
+                android:layout_height="80dp"
+                android:layout_alignTop="@+id/chartView5"
+                android:layout_toRightOf="@+id/chartView5" />                
+
+            <hotpot.game.card.ChartView
+                android:id="@+id/chartView7"
+                android:layout_width="70dp"
+                android:layout_height="80dp"
+                android:layout_alignLeft="@+id/chartView1"
+                android:layout_below="@+id/chartView4"/>
+            <hotpot.game.card.ChartView
+                android:id="@+id/chartView8"
+                android:layout_width="70dp"
+                android:layout_height="80dp"
+                android:layout_alignTop="@+id/chartView7"
+                android:layout_toRightOf="@+id/chartView7"/>
+            <hotpot.game.card.ChartView
+                android:id="@+id/chartView9"
+                android:layout_width="70dp"
+                android:layout_height="80dp"
+                android:layout_alignTop="@+id/chartView8"
+                android:layout_toRightOf="@+id/chartView8"/>                
+  
+                
+            
+          <hotpot.game.card.PlayerCard
+            android:id="@+id/button6"
+            android:layout_width="50dp"
+            android:layout_height="60dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="380dp"
+            android:src="@drawable/button_10"
+            android:drawableTop="@drawable/mons001b"
+            />
+         <hotpot.game.card.PlayerCard
+            android:id="@+id/button7"
+            android:layout_width="50dp"
+            android:layout_height="60dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="380dp"
+            android:src="@drawable/button_20"
+            android:drawableTop="@drawable/mons001b"
+            />
+          <hotpot.game.card.PlayerCard
+            android:id="@+id/button8"
+            android:layout_width="50dp"
+            android:layout_height="60dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="380dp"
+            android:src="@drawable/button_30"
+            android:drawableTop="@drawable/mons001b"
+            />
+           <hotpot.game.card.PlayerCard
+            android:id="@+id/button9"
+            android:layout_width="50dp"
+            android:layout_height="60dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="190dp"
+            android:layout_marginTop="380dp"
+            android:src="@drawable/button_40"
+            android:drawableTop="@drawable/mons001b"            
+            />
+            <hotpot.game.card.PlayerCard
+            android:id="@+id/button10"
+            android:layout_width="50dp"
+            android:layout_height="60dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="250dp"
+            android:layout_marginTop="380dp"
+            android:src="@drawable/button_50"
+            android:drawableTop="@drawable/mons001b"                        
+            />
+
+            <Button
+                android:id="@+id/giveup"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="50dp"
+                android:layout_height="30dp"
+                android:layout_marginLeft="2dp"
+                android:layout_marginTop="100dp"
+                android:textSize="10dp"
+                android:text="Give Up" />
+
+    </RelativeLayout>
+
+</LinearLayout>
